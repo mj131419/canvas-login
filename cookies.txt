@@ -1,0 +1,13 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+western.instructure.com	TRUE	/	FALSE	1999999999	_csrf_token	b09B9%2BTSPGXwUDqjnCTAWxEZM%2B3atUFu8y9GCOno5bkHOXGjg%2BR3PbwjAtulZ40qYEph2I7YAz60STY4ioOCig%3D%3D
+western.instructure.com	TRUE	/	FALSE	1999999999	log_session_id	bd50674bed500e2a61a2be2993fa783d
+western.instructure.com	TRUE	/	FALSE	1999999999	_legacy_normandy_session	K4N7grM2rVUAQKhfh3fpsA+4QfBQVpUzCxEzugjOcdRwFA7tiyCG37VXM_TlFL1DrWL1vFslcqYoW-dPytTlmOltQsZ-pZaKrI-2VgXEqOf_KRDRUZ7sExZs-d6rE_W53mIt3hof7OH_hCszIGHLxOO4vUJ041sRmZMVrKDHI6p_w.ZZL2DfIOvPGd4Rlj5sVozpPGCac.ZawQwg
+western.instructure.com	TRUE	/	FALSE	1999999999	canvas_session	K4N7grM2rVUAQKhfh3fpsA+4QfBQVpUzCxEzugjOcdRwFA7tiyCG37VXM_TlFL1DrWL1vFslcqYoW-dPytTlmOltQsZ-pZaKrI-2VgXEqOf_KRDRUZ7sExZs-d6rE_W53mIt3hof7OH_hCszIGHLxOO4vUJ041sRmZMVrKDHI6p_w.ZZL2DfIOvPGd4Rlj5sVozpPGCac.ZawQwg
+western.instructure.com	TRUE	/	FALSE	1999999999	SameSite	None
+admissions.western.edu	TRUE	/	FALSE	1999999999	_hash	b0a57c74-6d16-48e0-8630-5e812a590ee6
+admissions.western.edu	TRUE	/	FALSE	1999999999	_hashV	202401/1
+admissions.western.edu	TRUE	/	FALSE	1999999999	SameSite	None
+admissions.western.edu	TRUE	/	FALSE	1999999999	_node	3472951818.47873.0000
+admissions.western.edu	TRUE	/	FALSE	1999999999	TS01e84c7d	01370406fab44ea59686abe823fc0f573f6d2c8fd2eee621d72e09ddd1698e3e38e01c517733238ad3d02947ef8613ca03223f67dc
+

@@ -1,0 +1,146 @@
+.ic-Login-header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/*format background*/
+body.ic-Login-Body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #000000;
+	background-image: url('../738373/western_canvas_background.jpg');
+}
+
+/*position the main login box area; This code sets it 75 pixels from the top*/
+body.ic-Login-Body .ic-Login__container {
+    margin-top: 60px;
+}
+
+/*login box*  We changed the size to 465x665 to accommodate the size of our background image*/
+body.ic-Login-Body .ic-Login__content {
+    height: 70vh; 
+    width: 90vw; 
+    /*box-shadow: 0 4px 20px -2px #000000;*/
+    padding: 10px;
+}
+
+/*username login box*/
+body.ic-Login-Body #pseudonym_session_unique_id {
+    height: 38px;
+    width: 100%;
+    border-color: #565a5c;
+}
+
+/*password login box*/
+body.ic-Login-Body #pseudonym_session_password {
+    height: 38px;
+    width: 100%;
+    border-color: #565a5c;
+}
+
+/*add padding to logo to avoid getting cut off when resizing*/
+body.ic-Login-Body .ic-Login-header__logo {
+	padding-right: 20px;
+}
+
+/*position entire login form (username, password, stay signed in, forgot password, log in button)*/
+body.ic-Login-Body .ic-Login__body {
+	margin-top: 170px;
+	max-width: 400px;
+	background: #f4f4f4;
+    border-radius: 5px;
+}
+
+/*more space for login form*/
+/*body.ic-Login-Body #login_form {
+    margin: 30px 0px 20px;
+}*/
+
+body.ic-Login-Body label.ic-Label {
+	margin-top: 20px;
+	color: #000000 !important;
+}
+
+/*position Login button below Forgot Password link*/
+body.ic-Login-Body .ic-Login__actions {
+	align-items: normal;
+	flex-direction: column;
+}
+
+/*add space between Login button and Forgot Password link and change color*/
+body.ic-Login-Body .ic-Login__actions .ic-Form-control {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+body.ic-Login-Body a#login_forgot_password{
+	color: #a71930 !important;
+}
+
+body.ic-Login-Body a#login_forgot_password:hover{
+	color: #e00034 !important;
+}
+
+/*change styling of Login button*/
+body.ic-Login-Body .ic-Login__actions .Button--login {
+	background: #e00034;
+	border: none;
+	width: 100%;
+	color:#ffffff;
+
+}
+
+/* Correct contrast error*/
+body.ic-Login-Body h1.ui-helper-hidden-accessible {
+    color: rgb(0,0,0);
+}
+
+/*links for IE*/
+body.ic-Login-Body a{
+	color: #ffffff;
+}
+
+body.ic-Login-Body a:hover{
+	color: #ffffff;
+}
+
+
+
+/* FOR MOBILE */
+
+/*add background to mobile
+body.webkit.safari.touch{
+	background-image: url("https://instructure-uploads.s3.amazonaws.com/account_145020000000000001/attachments/720177/western_canvas_background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+}*/
+
+/*changing header logo to Western logo on mobile*/
+body.webkit.safari.touch .mobileLogin-Header, body.webkit.chrome.touch .mobileLogin-Header {
+	background-image: url("../../../../admissions.western.edu/www/images/western_logo_hor_RGB_pos.png");
+	background-size: 275px auto;
+}
+
+/*add background to form*/
+body.webkit.safari.touch #login_form{
+	background: #f4f4f4;
+	padding: 13px;
+	border-radius: 3px;
+}
+
+/*change Forgot Password link to white*/
+body.webkit.safari.touch a.forgot-password {
+	color:#a71930;
+}
+
+/*add space above email intup for username change message*/
+body.webkit.safari.touch input[type=email].ic-Input {
+	margin-top: 20px;
+}
+
+

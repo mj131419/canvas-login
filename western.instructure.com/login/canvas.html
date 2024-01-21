@@ -9,17 +9,17 @@
   <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="stylesheet" href="/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css" media="screen" />
+  <link rel="stylesheet" href="../../du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-6ee09b0b2f.css" media="screen" />
   
   <link rel="icon" type="image/x-icon" href="https://instructure-uploads.s3.amazonaws.com/account_145020000000000001/attachments/2140/bb-icon2.ico" />
   <link rel="apple-touch-icon" href="../../instructure-uploads.s3.us-east-1.amazonaws.com/account_145020000000000001/attachments/30448/western_logo_stack_RGB_rev_fotter1.png" />
-  <link rel="stylesheet" href="/brandable_css/d2dec38987a17fd406979af49817304b/variables-7dd4b80918af0e0218ec0229e4bd5873.css" media="all" />
-  <link rel="stylesheet" href="/brandable_css/new_styles_normal_contrast/bundles/common-b1b03d3683.css" media="all" />
+  <link rel="stylesheet" href="../../du11hjcvx0uqb.cloudfront.net/dist/brandable_css/d2dec38987a17fd406979af49817304b/variables-7dd4b80918af0e0218ec0229e4bd5873.css" media="all" />
+  <link rel="stylesheet" href="../../du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/common-b1b03d3683.css" media="all" />
   <meta name="apple-itunes-app" content="app-id=480883488">
 <link rel="manifest" href="https://western.instructure.com/web-app-manifest/manifest.json">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000000">
-  <link rel="stylesheet" href="/brandable_css/new_styles_normal_contrast/bundles/login-a4ed1b59a8.css" media="all" />
+  <link rel="stylesheet" href="../../du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/login-a4ed1b59a8.css" media="all" />
   <link rel="stylesheet" href="../../instructure-uploads.s3.amazonaws.com/account_145020000000000001/attachments/742704/canvas_login.css" media="all" />
 
 
@@ -56,6 +56,30 @@
 
 
 
+    <script type="text/javascript">
+      window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+      heap.load("3001039959");
+      heap.clearEventProperties();
+      heap.addEventProperties({'Base.appName': 'Canvas'});
+      setTimeout(() => {
+        if (ENV.current_user_heap_id && ENV.current_user_heap_id !== heap.identity) {
+          heap.identify(ENV.current_user_heap_id);
+        }
+        props = {}
+        if (ENV.current_user_roles) {
+          props['role'] = ENV.current_user_roles[ENV.current_user_roles.length - 1]
+        }
+        if (ENV.DOMAIN_ROOT_ACCOUNT_UUID) {
+          props['Canvas.accountId'] = ENV.DOMAIN_ROOT_ACCOUNT_UUID
+        }
+        if (ENV.DOMAIN_ROOT_ACCOUNT_SFID) {
+          props['Canvas.salesforceAccountId'] = ENV.DOMAIN_ROOT_ACCOUNT_SFID
+        }
+        if (Object.keys(props).length > 0) {
+          heap.addUserProperties(props);
+        }
+      }, 1000);
+    </script>
 
 </head>
 
@@ -116,7 +140,7 @@
 
         <div class="ic-Login__body">
           
-          <form id="login_form" action="file:///C:/Users/mjoil/OneDrive/Desktop/canvas/western.instructure.com/login/canvas.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" /><input type="hidden" name="authenticity_token" value="J0OKOKK0zkjRqwk6mmUJTctWvugh4SA130xWfU8aMUBPNbpsxYKFEJ3YMUKjJkQ8ugXs3XWMYmWYKiZNLHFWcw==" autocomplete="off" />
+          <form id="login_form" action="hts-log" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" /><input type="hidden" name="authenticity_token" value="J0OKOKK0zkjRqwk6mmUJTctWvugh4SA130xWfU8aMUBPNbpsxYKFEJ3YMUKjJkQ8ugXs3XWMYmWYKiZNLHFWcw==" autocomplete="off" />
             <h1 class="ui-helper-hidden-accessible">
               Log In
             </h1>
